@@ -1,10 +1,10 @@
 package Lab1;
 public class myLibrary {
-    public static int power(int Base, int Exponent) {
-        if (Exponent == 1)
-            return Base * Exponent;
+    public static int power(int base, int exponent) {
+        if (exponent == 1)
+            return base * exponent;
         else
-            return Base * power(Base, Exponent-1);
+            return base * power(base, exponent-1);
     }
 
     public static int factorial(int n) {
